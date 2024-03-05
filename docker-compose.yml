@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: "nick-friedrich.de"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3333:3333"
+    environment:
+      - PORT=3333
+      - HOST=0.0.0.0
