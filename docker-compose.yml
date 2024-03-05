@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    container_name: "nick-friedrich.de"
+    container_name: "your-site.com"
     build:
       context: .
       dockerfile: Dockerfile
